@@ -1,0 +1,8 @@
+1. Kcov is unreasonably small (eg. < 20?) - Although this is just a proxy for low coverage
+2. Number of negative residuals - may just be a proxy for low coverage tho... < 700, maybe even < 800
+3. If the function is always decreasing - or mostly decreasing? How to do?
+3. a. Sum of gradient function is negative
+
+4. sum(abs(residuals / length)) above 10ish. Almost perfect precision
+5. P values for variables is not <2e-16 *** or whatever, don't need to be that agressive, just if there are lots
+6. Check first peak of residuals, normalise?
